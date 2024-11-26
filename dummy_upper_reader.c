@@ -48,7 +48,7 @@ void response(int fd, const char *s, size_t len) {
 
     ERR_RET(cmd == U_CMD_MAX, "command error %s", s);
 
-    printf("%.*s", len, s);
+    printf("Rx: %.*s\n", len, s);
     write(fd, "OK\r\n", 4);
     printf("Tx: OK\n");
 error_return:
