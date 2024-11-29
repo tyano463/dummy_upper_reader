@@ -16,7 +16,7 @@
 
 #define CRLF "\r\n"
 
-#define MSG_DEVICE_FOUND "12:34:56:78:9a:bc -90 DevName123 11,22,33,44,55,66,77,88,99"
+#define MSG_DEVICE_FOUND "12:34:56:78:9a:bc -90 WestLK-123 11,22,33,44,55,66,77,88,99"
 #define MSG_SWPUSH "SWPUSH"
 #define MSG_SWREL "SWREL"
 
